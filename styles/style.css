@@ -2,15 +2,16 @@
     box-sizing: border-box;
     line-height: 1.6;
     font-size: 20px;
+    color: rgb(20, 22, 26);
 }
 
-h1 {
-    font-size: 30px;
+h2 {
+    text-align: center;
 }
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: beige;
+    background-color: #323232;
 }
 
 a {
@@ -19,6 +20,8 @@ a {
 
 .title {
     text-align: center;
+    margin-top: 0;
+    font-size: 30px;
 }
 
 img {
@@ -34,3 +37,31 @@ img {
     margin: auto;
 }
 
+.receipe-card {
+    width: 800px;
+    margin: auto;
+    padding: 17px;
+    /* border: 5px solid #150c0c; */
+    background-color: beige;
+}
+
+.text p {
+    text-align: justify;
+}
+
+.first-row {
+    display: inline;
+}
+
+#main-h1 {
+    color: beige;
+    font-size: 30px;
+    text-align: center;
+}
+
+#main-ul {
+    text-align: center; 
+    display: block;     
+    margin: 0 auto;     
+    width: fit-content;
+}
